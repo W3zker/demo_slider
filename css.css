@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.section{
+    max-width: 1200px;
+    margin: auto;
+}
+section{
+    background-color: aqua;
+}
+.slider {
+    max-width: 960px;
+    margin: 100px auto;
+}
+.slider-item {
+    height: 520px;
+}
+
+.slider-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+}
+
+.slick-slide {
+    margin: 0 8px;
+}
+
+.slick-list {
+    margin: 0 30px;
+}
+
+button.slick-next, button.slick-next:hover {
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    
+}
+.slick-dots li button:before{
+    font-size: 15px;
+    color: aqua;
+    opacity: 0.4;
+}
+.slick-prev:before, .slick-next:before{
+    color: black;
+    font-size: 35px;
+}
